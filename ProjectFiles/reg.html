@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-geometric-gradient-creative-blood-donation-poster-background-material-image_134137.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+</style>
+<body bgcolor="white">   
+<link rel="stylesheet" type="text/css" href="style.css">
+<div class="topnav">
+ <a class="active " href="Home.php">Home</a>
+ <a class="active " href="about.html">About Us</a>
+ <a class="active " href="cu.html">Contact Us</a>
+ <a class="active " href="logout.php">Log Out</a>
+</div> 
+<tr>    
+<td><br></td>
+</tr><tr>
+<td><br></td>
+</tr>
+<tr>
+<td><br></td>
+</tr>
+<form action="reg.php" method="post" >
+<center>
+<table>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+                    <td><font size="6">Email:</font></td>
+                    <td><input type="email" name="email" required></input></td>
+                </tr>
+                <tr>
+                    <td><font size="6">Name:</font></td>
+                    <td><input type="text" name="name" required></input></td>
+                </tr>
+                <tr>
+                    <td><font size="6">Mobile:</font></td>
+                    <td><input type="text" name="mobile" required pattern="[0-9]{10}"/></td>
+                </tr>
+                <tr>
+                    <td><font size="6">City:</font></td>
+                    <td><input type="text" name="city" required></input></td>           
+                                
+                </tr>
+                <tr>
+                    <td><font size="6">Blood Group:</font></td>
+                
+                     <td><select name="bgroup"> 
+                                <option value="O+">O+</option>
+                                <option value="A+">A+</option>
+                                <option value="B+">B+</option>
+                                <option value="AB+">AB+</option>
+                                <option value="O-">O-</option>
+                                <option value="A-">A-</option>
+                                <option value="B-">B-</option>
+                                <option value="AB-">AB-</option> 
+                        </select></td>
+                </tr>
+               <tr>
+                    <td></td>
+                    <td><input type="submit" class="btn btn-primary"  />
+                       
+                </tr>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+<td><br></td>
+</tr>
+</table>
+</center>
+</form>
+
+</body>
+</html>
