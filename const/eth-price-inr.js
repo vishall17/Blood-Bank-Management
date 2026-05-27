@@ -1,1 +1,0 @@
-export const ethPriceInInr = 150046.77;
